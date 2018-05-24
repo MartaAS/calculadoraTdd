@@ -3,6 +3,7 @@
 const application = function () {
   'use strict';
 
+
   function checkIfIsNumber(number) {
     if (!typeof number == 'number') {
       return 'no es un numero';
